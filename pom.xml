@@ -37,9 +37,21 @@
 					</archive>
 				</configuration>
 			</plugin>
-			
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.1</version>
+			</plugin>
+
 		</plugins>
 	</build>
+
+	<scm>
+		<connection>scm:git:git@github.com:tobrien/git-demo.git</connection>
+		<url>scm:git:git@github.com:stassolodkin/toy_robot.git</url>
+		<developerConnection>scm:git:git@github.com:stassolodkin/toy_robot.git</developerConnection>
+	</scm>
 
 	<dependencies>
 		<dependency>
