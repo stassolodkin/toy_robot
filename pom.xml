@@ -3,7 +3,7 @@
 
 	<groupId>com.stass.toyrobot</groupId>
 	<artifactId>ToyRobot</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>ToyRobot</name>
@@ -50,7 +50,7 @@
 		<connection>scm:git:git@github.com:tobrien/git-demo.git</connection>
 		<url>scm:git:git@github.com:stassolodkin/toy_robot.git</url>
 		<developerConnection>scm:git:git@github.com:stassolodkin/toy_robot.git</developerConnection>
-	  <tag>ToyRobot-1.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<dependencies>
